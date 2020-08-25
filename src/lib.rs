@@ -1,6 +1,6 @@
 
 #[macro_export]
-macro_rules! tu_simple_error {
+macro_rules! simple_error {
     ($name:ident {$($item:ident ($type:ty),)*}) => {
         #[derive(Debug)]
         pub enum $name {
